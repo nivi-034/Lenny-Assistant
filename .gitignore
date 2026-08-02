@@ -1,0 +1,23 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Databases & Local Configuration
+lenny_assistant.db
+.env
+frontend/.env
+
+# Large Datasets / Cloned Repositories
+data/transcripts/
+data/
+
+# Node / Frontend Build
+node_modules/
+dist/
+.eslintcache
+
+# System Files
+.DS_Store
+Thumbs.db
